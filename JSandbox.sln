@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkTest.DataAcc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAsync", "WinFormsAsync\WinFormsAsync.csproj", "{0040BE0B-06AC-4FB2-B52B-C36126BA1323}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteNetRelations", "SQLiteNetRelations\SQLiteNetRelations.csproj", "{807809FA-68BD-47A6-B882-860D2139FA62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0040BE0B-06AC-4FB2-B52B-C36126BA1323}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0040BE0B-06AC-4FB2-B52B-C36126BA1323}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0040BE0B-06AC-4FB2-B52B-C36126BA1323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{807809FA-68BD-47A6-B882-860D2139FA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{807809FA-68BD-47A6-B882-860D2139FA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{807809FA-68BD-47A6-B882-860D2139FA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{807809FA-68BD-47A6-B882-860D2139FA62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
