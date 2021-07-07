@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAsync", "WinFormsAs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteNetRelations", "SQLiteNetRelations\SQLiteNetRelations.csproj", "{807809FA-68BD-47A6-B882-860D2139FA62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekOfYearTest", "WeekOfYearTest\WeekOfYearTest.csproj", "{7047273D-3013-4DDD-B20E-EE68DD3C0EBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{807809FA-68BD-47A6-B882-860D2139FA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{807809FA-68BD-47A6-B882-860D2139FA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{807809FA-68BD-47A6-B882-860D2139FA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7047273D-3013-4DDD-B20E-EE68DD3C0EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7047273D-3013-4DDD-B20E-EE68DD3C0EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7047273D-3013-4DDD-B20E-EE68DD3C0EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7047273D-3013-4DDD-B20E-EE68DD3C0EBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
