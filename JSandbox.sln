@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteNetRelations", "SQLit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekOfYearTest", "WeekOfYearTest\WeekOfYearTest.csproj", "{7047273D-3013-4DDD-B20E-EE68DD3C0EBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFNestedBindingTest", "WPFNestedBindingTest\WPFNestedBindingTest.csproj", "{EAE8C714-8C6F-4B25-8C14-941EE80903F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7047273D-3013-4DDD-B20E-EE68DD3C0EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7047273D-3013-4DDD-B20E-EE68DD3C0EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7047273D-3013-4DDD-B20E-EE68DD3C0EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE8C714-8C6F-4B25-8C14-941EE80903F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE8C714-8C6F-4B25-8C14-941EE80903F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE8C714-8C6F-4B25-8C14-941EE80903F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE8C714-8C6F-4B25-8C14-941EE80903F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

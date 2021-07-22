@@ -1,0 +1,27 @@
+﻿<Window
+    x:Class="WPFNestedBindingTest.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <StackPanel>
+        <GroupBox Header="Invalid binding">
+            <StackPanel>
+                <Label Content="{Binding Item.Value}" />
+                <Button Command="{Binding InvalidUpdateValue}" Content="Update value" />
+                <Button Command="{Binding InvalidOverrideValue}" Content="Override value" />
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Valid binding">
+            <StackPanel>
+                <Label Content="{Binding Item2.Value}" />
+                <Button Command="{Binding ValidUpdateValue}" Content="Update value" />
+                <Button Command="{Binding ValidOverrideValue}" Content="Override value" />
+            </StackPanel>
+        </GroupBox>
+    </StackPanel>
+</Window>
